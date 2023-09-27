@@ -234,4 +234,4 @@ SELECT 'Лошади' AS тип_животного, имя, команда, да
 UNION ALL
 SELECT 'Ослы' AS тип_животного, имя, команда, дата_рождения FROM Ослы;
 
-13, 14  и 15 - [-= реализовано в коде =-] (https://github.com/SokolikAA/Final_control_task/tree/master/Final_Task_2/Program/Animal/src/main/java)
+[13, 14  и 15]  (https://github.com/SokolikAA/Final_control_task/tree/master/Final_Task_2/Program/Animal/src/main/java) htfkbpfwbz d rjlt
