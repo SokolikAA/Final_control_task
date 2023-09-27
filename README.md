@@ -223,6 +223,7 @@ AND дата_рождения <= DATE_SUB(CURDATE(), INTERVAL 1 YEAR);
 12. Объединить все таблицы в одну, при этом сохраняя поля, указывающие на
 прошлую принадлежность к старым таблицам.
 
+```sql
 CREATE TABLE Полный_состав AS
 SELECT 'Собаки' AS тип_животного, имя, команда, дата_рождения FROM Собаки
 UNION ALL
@@ -233,5 +234,7 @@ UNION ALL
 SELECT 'Лошади' AS тип_животного, имя, команда, дата_рождения FROM Лошади
 UNION ALL
 SELECT 'Ослы' AS тип_животного, имя, команда, дата_рождения FROM Ослы;
+
+```
 
 [13, 14  и 15]  (https://github.com/SokolikAA/Final_control_task/tree/master/Final_Task_2/Program/Animal/src/main/java) Реализация в коде
