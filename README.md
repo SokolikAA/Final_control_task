@@ -242,4 +242,4 @@ UNION ALL
 SELECT 'Ослы' AS тип_животного, имя, команда, дата_рождения FROM Ослы;
 ```
 
-[13, 14  и 15]  (https://github.com/SokolikAA/Final_control_task/tree/master/Final_Task_2/Program/Animal/src/main/java) Реализация в коде
+[13, 14  и 15 Реализация в коде][code]  [code]: https://github.com/SokolikAA/Final_control_task/tree/master/Final_Task_2/Program/Animal/src/main/java
